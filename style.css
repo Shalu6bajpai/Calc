@@ -1,0 +1,74 @@
+
+  
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color:rgb(201, 192, 207);
+}
+
+.display{
+    height: 100px; 
+    border-radius: 20px;   
+}
+
+
+td{
+    cursor: pointer;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.button{
+    /* box-sizing: border-box; */
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.number{
+    background-image: linear-gradient(rgb(75, 64, 85),rgb(75, 64, 85));
+}
+
+.number:hover{
+    background-image: linear-gradient(rgba(216, 208, 208,0.9),rgba(155, 149, 149,0.9));
+}
+
+.operator{
+    background-image: linear-gradient(#8abb17,#8abb17);
+}
+
+.operator:hover{
+    background-image: linear-gradient(rgba(255, 150, 65,0.9),rgba(255, 94, 0,0.9));
+}
+
+.red{
+    background-image: linear-gradient(rgb(158, 75, 68),rgb(231, 42, 25));
+}
+
+.red:hover{    
+    background-image: linear-gradient(rgba(255, 132, 121, 0.9),rgba(231, 42, 25, 0.9));
+}
+
+.green{
+    background-image: linear-gradient(rgb(194, 255, 175),rgb(87, 235, 42));
+}
+
+.green:hover{
+    background-image: linear-gradient(rgba(194, 255, 175, 0.9),rgba(87, 235, 42, 0.9));
+}
+
+
